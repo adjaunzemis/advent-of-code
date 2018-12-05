@@ -22,7 +22,7 @@ public class FrequencyCalculator
         freqList.add(frequency);
 
         //Read through the text file
-        File input = new File("S:\\Projects\\AdventOfCode2018\\samantha\\day1\\input_SEJ.txt");
+        File input = new File("C:\\Users\\Samantha\\Documents\\Coding\\AdventOfCode\\2018\\samantha\\day1\\input_SEJ.txt");
         try {
             while (!repeatFound) {
                 scan = new Scanner(input);
