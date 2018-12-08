@@ -1,5 +1,3 @@
-package andris.utilities;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 

@@ -2,11 +2,11 @@ package andris.day2;
 
 import andris.day2.BoxScanner;
 
-public class Puzzle1
+public class Day2Puzzle1
 {
 
-    private static String testFilePath = "S:\\Projects\\AdventOfCode\\2018\\andris\\day2\\input_test.txt";
-    private static String boxIDFilePath = "S:\\Projects\\AdventOfCode\\2018\\andris\\day2\\input_adj.txt";
+    private static String testFilePath = "S:\\Projects\\AdventOfCode\\2018\\andris\\day2\\inputDay2_test.txt";
+    private static String boxIDFilePath = "S:\\Projects\\AdventOfCode\\2018\\andris\\day2\\inputDay2_adj.txt";
 
     public static void main(String[] args)
     {

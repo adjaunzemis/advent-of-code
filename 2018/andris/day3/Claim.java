@@ -1,5 +1,3 @@
-package andris.day3;
-
 import andris.day3.InvalidClaimException;
 
 import InvalidClaimException;

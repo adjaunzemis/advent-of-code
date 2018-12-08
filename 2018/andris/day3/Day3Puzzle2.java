@@ -1,9 +1,3 @@
-package andris.day3;
-
-import andris.utilities.FileReader;
-import andris.day3.Claim;
-import andris.day3.InvalidClaimException;
-
 import FileReader;
 import Claim;
 import InvalidClaimException;
@@ -11,7 +5,7 @@ import InvalidClaimException;
 import java.util.List;
 import java.util.ArrayList;
 
-public class Puzzle2
+public class Day3Puzzle2
 {
 
     private static int FindNonOverlappingClaim(List<Claim> claims)
@@ -48,8 +42,8 @@ public class Puzzle2
     {
         System.out.println("Day 3 - Puzzle 2");
 
-        // String filePath = "S:\\Projects\\AdventOfCode\\2018\\andris\\day3\\input_test.txt";
-        String filePath = "S:\\Projects\\AdventOfCode\\2018\\andris\\day3\\input_adj.txt";
+        // String filePath = "S:\\Projects\\AdventOfCode\\2018\\andris\\day3\\inputDay3_test.txt";
+        String filePath = "S:\\Projects\\AdventOfCode\\2018\\andris\\day3\\inputDay3_adj.txt";
         List<String> fileStrings = FileReader.ParseStrings(filePath);
 
         System.out.println("Reading claims...");

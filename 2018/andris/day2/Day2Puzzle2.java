@@ -4,11 +4,11 @@ import andris.day2.BoxScanner;
 
 import java.util.List;
 
-public class Puzzle2
+public class Day2Puzzle2
 {
 
-    private static String testFilePath = "S:\\Projects\\AdventOfCode\\2018\\andris\\day2\\input_test2.txt";
-    private static String boxIDFilePath = "S:\\Projects\\AdventOfCode\\2018\\andris\\day2\\input_adj.txt";
+    private static String testFilePath = "S:\\Projects\\AdventOfCode\\2018\\andris\\day2\\inputDay2_test2.txt";
+    private static String boxIDFilePath = "S:\\Projects\\AdventOfCode\\2018\\andris\\day2\\inputDay2_adj.txt";
 
     private static String FindCommonCharacters(String a, String b)
     {

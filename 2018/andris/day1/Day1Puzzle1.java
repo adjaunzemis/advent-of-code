@@ -2,7 +2,7 @@ package andris.day1;
 
 import andris.day1.TimeTravelDevice;
 
-public class Puzzle1 {
+public class Day1Puzzle1 {
 
     public static void main(String[] args)
     {
@@ -12,7 +12,7 @@ public class Puzzle1 {
         TimeTravelDevice device = new TimeTravelDevice();
 
         System.out.println("Loading frequency change list...");
-        String inputFilePath = "S:\\Projects\\AdventOfCode\\2018\\andris\\day1\\input_adj.txt";
+        String inputFilePath = "S:\\Projects\\AdventOfCode\\2018\\andris\\day1\\inputDay1_adj.txt";
         device.LoadFrequencyChangeList(inputFilePath);
 
         System.out.println("Computing final frequency...");
