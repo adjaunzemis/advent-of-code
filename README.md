@@ -1,7 +1,6 @@
 # AdventOfCode
 
-Advent of Code project repository
-2018: https://adventofcode.com/
+Advent of Code projects: https://adventofcode.com/
 
 # Participants
 
